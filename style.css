@@ -135,6 +135,12 @@ div.slideshow img {
 
   /* maintain random transform event */
   pointer-events: none;
+
+  /* Remove highlight if selected sometimes... */
+  -webkit-user-select: none;       
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  user-select: none;
 }
 
 div.slideshow img:first-child {
